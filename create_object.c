@@ -5,6 +5,8 @@
 ** creata_object.c
 */
 
+#include "libcsfml.h"
+
 object_t *create_object(const char *filepath, sfVector2f pos, sfIntRect rect)
 {
     object_t *object = malloc(sizeof(object_t));

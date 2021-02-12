@@ -5,7 +5,7 @@
 ** creata_window.c
 */
 
-#include "lib.csfml.h"
+#include "libcsfml.h"
 
 sfRenderWindow *creat_window(int width, int height, char *name)
 {
